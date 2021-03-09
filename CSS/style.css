@@ -11,7 +11,7 @@
     grid-template-areas:
         'h h h'
         's m m'
-        'f f f';
+        'f  f f';
     grid-gap:0px;
     width:100vw;
     height:100vh;
@@ -19,16 +19,20 @@
 li.headerl{
     display:inline;
 }
+
+.sizes{
+    font-size:2rem;
+}
 a:link {
     font-size: 3rem;
-    color: #E5E5DC;
+    color: #334259;
     list-style-type: none;
     margin-right: 3rem;
     text-decoration: none;
 }
 a:visited {
     font-size: 3rem;
-    color: #E5E5DC;
+    color: #334259;
     list-style-type: none;
     margin-right: 3rem;
     text-decoration: none;
@@ -40,17 +44,20 @@ a:visited {
 
 .side{
     grid-area: s;
-    background-color:#E5E5DC;
+    background-color:#334259;
+    color:#EDDDD0;
 }
 
 .main{
     grid-area:m;
     background-color: #DEEEE0;
+    
 }
 
 footer{
     grid-area: f;
-    background-color: #334259;
+    background-color: #6E8783;
+    font-size:40px;
 }
 
 li {
